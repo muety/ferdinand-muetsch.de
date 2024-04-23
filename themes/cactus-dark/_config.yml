@@ -13,12 +13,11 @@ customize:
         height: 50
         gravatar: true
     favicon: 
-      # eg. generate with http://realfavicongenerator.net/
       desktop:
-        url: favicon.ico
+        url: images/favicon.png
         gravatar: false
       android:
-        url: favicon.ico
+        url: images/favicon.png
         gravator: false
     social_links:
         github:

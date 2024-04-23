@@ -85,6 +85,3 @@ feed:
   order_by: -date
   autodiscovery: true
   template:
-
-include:
-    - "favicon.ico"
