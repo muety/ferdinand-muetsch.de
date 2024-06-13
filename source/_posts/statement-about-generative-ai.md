@@ -8,7 +8,7 @@ Inspired by [this blog](https://www.leftfold.tech/pages/noai/), I want to make a
 
 I don't intend to damn recent advanced in LLMs and gen-AI for synthesizing text, code, pictures and videos. The progress made on that end is super impressive and generative deep learning methods are an extremely interesting research area. By no means do I think that these evolvements are just a hype. ChatGPT, LLaMA, Stable Diffusion, Whisper & Co. are here to stay and I am convinced they will sort of revolutionalize the way we work as creators and developers (in a good or bad way). Possibly, we'll even get to AGI not too far in the future.
 
-However, I think there are non-negligible risks, including such related to privacy, the individual power of very few, big tech companies (NVIDIA, OpenAI, ...) and - first and foremost - disinformation. I'm not going into a discussion about these - there are a lot of great blog posts and books out there. I just want to state my current position on this topic.
+However, I think there are non-negligible risks, including such related to privacy, the individual power of very few, big tech companies ([NVIDIA](https://x.com/historyinmemes/status/1800966548867383364), OpenAI, ...) and - first and foremost - disinformation. I'm not going into a discussion about these - there are a lot of great blog posts and books out there. I just want to state my current position on this topic.
 
 # Writing and coding for fun
 
@@ -18,6 +18,6 @@ Quoting from the blog post referenced above:
 
 Same for coding. I do this for fun. When I'm writing a blog post, it's not because I seek to attract a lot of clicks. It's because I discovered something that I feel is worth sharing with likeminded people. And when I'm writing code, I'm doing so for the sake of the thing itself. I don't regard programming as a means to an end, but as part of the journey. I enjoy to wrap my head around some problem, dig into the documentation of some library and do trial & error debugging until my program eventually works - even though Copilot or sth. might have done it a lot faster.
 
-Also, I feel a lot more comfortable to read blog posts and StackOverflow answers written by actual human experts - like senior devs with yearslong experience or researchers of that area - than AI content. If a blog post sounds like ChatGPT, I usually skip and move on. Just my two cents.
+Also, I feel a lot more comfortable to read blog posts and StackOverflow answers written by actual human experts - like senior devs with yearslong experience or researchers of that area - than AI content. If a blog post sounds like ChatGPT, I usually skip and move on. Also, personally, I find it somewhat disappointing that events like Google I/O or Apple WWDC - that used to be famous for dropping exciting new dev features and sparking nerdy tech talk among colleagues each time - have mostly turned into AI bulls*** bingo. Just my two cents.
 
 **Long story short is:** all content on this blog and all code in my projects is purely written by myself. Just to let you know ...

@@ -25,16 +25,16 @@ customize:
             url: http://github.com/muety
         mastodon:
             iconset: fab
-            url: https://social.tchncs.de/web/accounts/106761076750920593
+            url: https://social.tchncs.de/@ferdi
         linkedin:
             iconset: fab
             url: https://www.linkedin.com/in/ferdinand-m%C3%BCtsch-246734139/
         telegram:
             iconset: fab
             url: https://telegram.me/n1try
-        strava:
-            iconset: fab
-            url: https://www.strava.com/athletes/76078245
+        #strava:
+        #    iconset: fab
+        #    url: https://www.strava.com/athletes/76078245
         money-bill:
             iconset: fas
             url: https://liberapay.com/muety/
@@ -43,7 +43,7 @@ customize:
             url: mailto:ferdinand@muetsch.io
     me_links:
         github: http://github.com/muety
-        mastodon: https://social.tchncs.de/web/accounts/106761076750920593
+        mastodon: https://social.tchncs.de/@ferdi
         mail: mailto:ferdinand@muetsch.io
     webmention_endpoint: https://webmention.io/muetsch.io/webmention
     pingback_endpoint: https://webmention.io/muetsch.io/xmlrpc
