@@ -8,7 +8,9 @@ Inspired by [this blog](https://www.leftfold.tech/pages/noai/), I want to make a
 
 I don't intend to damn recent advanced in LLMs and gen-AI for synthesizing text, code, pictures and videos. The progress made on that end is super impressive and generative deep learning methods are an extremely interesting research area. By no means do I think that these evolvements are just a hype. ChatGPT, LLaMA, Stable Diffusion, Whisper & Co. are here to stay and I am convinced they will sort of revolutionalize the way we work as creators and developers (in a good or bad way). Possibly, we'll even get to AGI not too far in the future.
 
-However, I think there are non-negligible risks, including such related to privacy, the individual power of very few, big tech companies ([NVIDIA](https://x.com/historyinmemes/status/1800966548867383364), OpenAI, ...) and - first and foremost - disinformation. I'm not going into a discussion about these - there are a lot of great blog posts and books out there. I just want to state my current position on this topic.
+However, I think there are non-negligible risks, including such related to privacy, the individual power of very few, big tech companies ([NVIDIA](https://x.com/historyinmemes/status/1800966548867383364), OpenAI, ...) and - first and foremost - disinformation. Also, similar to Richard Stallman (referring to his article on [_Reasons not to use ChatGPT_](https://stallman.org/chatgpt.html)), I'm being reluctant about actually considering LLM systems "intelligent". While referring to them as ["bullshit generators"](https://www.gnu.org/philosophy/words-to-avoid.html#ArtificialIntelligence) - as GNU / Linux philosophy suggests - is probably a bit harsh, you might well argue that those types of models are rather just giant databases with pretty good human-language query interface.
+
+Anyway, I don't want to go into a deeper discussion any about these points - there are a lot of great blog posts and books out there. I just want to state my current position on the overall topic.
 
 # Writing and coding for fun
 
