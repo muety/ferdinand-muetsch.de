@@ -67,4 +67,8 @@ lanelet_map = lanelet2.io.load('my_map_01.osm', utm_projector)
 print(f'Loaded {len(list(lanelet_map.laneletLayer))} lanelets ...')
 ```
 
-Happy coding!
+# Closing remarks
+**Update Sep, 18th 2024:** The popular GIS framework [GDAL](https://gdal.org) will also feature an OpenDRIVE driver in version [3.10](https://github.com/OSGeo/gdal/pull/9504), the implementation of which is described in detail in [this work](https://elib.dlr.de/110123/). This will allow to easily convert from OpenDRIVE to most other support geo-data formats, such as GeoJSON, GeoPackage or Shapefile ([...](http://switchfromshapefile.org/)). Since there is also an [OSM driver](https://gdal.org/en/latest/drivers/vector/osm.html) and Lanelet2 is just a specific "dialect" (probably not the correct term) of OSM, getting to lanelets will probably not be very hard from that point on.
+
+
+**Happy coding!**
