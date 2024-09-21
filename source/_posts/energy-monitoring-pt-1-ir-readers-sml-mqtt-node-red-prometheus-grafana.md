@@ -19,7 +19,7 @@ Effectively, I had built two different setups for electricity monitoring - one f
 My goal was to track power consumption and production as precisely as possible to eventually be able to gather (a) "real-time" insights about when there is overcapacity and (b) analyze historical data to potentially find interesting patterns, etc.
 
 # Initial Situation
-First step in this whole endeavor was to take stock of the given situation. The circumstances were as follows. In my parent's home, we have three digital [Itron OpenWay® 3.HZ](https://wiki.volkszaehler.org/hardware/channels/meters/power/edl-ehz/itron_openway_3_hz) power meters and a fourth old, analogue one. The digital meters feature an infrared, optical interface for very basic metrics. More precisely, they provide data for these [OBIS identifiers](https://de.wikipedia.org/wiki/OBIS-Kennzahlen):
+First step in this whole endeavor was to take stock of the given situation. The circumstances were as follows. In my parents' home, we have three digital [Itron OpenWay® 3.HZ](https://wiki.volkszaehler.org/hardware/channels/meters/power/edl-ehz/itron_openway_3_hz) power meters and a fourth old, analogue one. The digital meters feature an infrared, optical interface for very basic metrics. More precisely, they provide data for these [OBIS identifiers](https://de.wikipedia.org/wiki/OBIS-Kennzahlen):
 
 * `1.8.0` - Total energy (Wh) inbound (total)
 * `1.8.1` - Total energy (Wh) inbound (tariff 1)
@@ -68,6 +68,17 @@ The Grafana server - that I'm already using for many other monitoring use cases 
 The overall setup schematically looks like this.
 
 ![Architecture sketch](images/smarthome_ubb.svg)
+
+# Alternative Setups
+When I planned out the above setup, I considered a couple different alternatives.
+
+One option was to employ [Volkszaehler](https://wiki.volkszaehler.org/overview), which is an amazing community-mainted project specifically for energy monitoring and integrations / drivers for a lot of different power- and water meter devices and its own frontend / visualization UI.
+
+Another option was to flash ESP32 microcontrollers with [Tasmota](https://tasmota.github.io), which also inherently comes with support [SML](https://tasmota.github.io/docs/Smart-Meter-Interface/) and pre-defined configs for many difference [devices](https://tasmota.github.io/docs/Smart-Meter-Interface/#smart-meter-descriptors). There's even a [variant](https://www.ebay.de/itm/315375748332?) of the Hitchi IR reader that already comes with a Tasmota-flashed microcontroller and WiFi on it.
+
+The third architecture I considered, inspired by [this post](https://crycode.de/serielle-schnittstelle-ueber-ethernet/) on serial over Ethernet, was similar to this one, but would not read and parse the SML readings "on the edge", but instead proxy the raw serial data over MQTT (e.g. using [2mqtt](https://github.com/mycontroller-org/2mqtt) or [OpenMQTTGateway](https://docs.openmqttgateway.com/#products-powered-by-openmqttgateway)) and then processing them on the server side.
+
+Ultimately, I found my setup described in this article to be the best trade-off between (a) utilizing systems that I already had (Prometheus, Grafana, Mosquitto, the NAS, ...), (b) keeping the setup rather simple and (c) cost-effective.
 
 # Outlook
 Part 2 of this mini-series will cover the monitoring setup employed in my own apartment. It's a lot more comprehensive, technically challenging, but also even more insightful. Stay tuned!
