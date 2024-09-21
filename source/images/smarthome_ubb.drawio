@@ -1,0 +1,83 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:130.0) Gecko/20100101 Firefox/130.0" version="24.7.7">
+  <diagram name="Page-1" id="Kj4Z2WhIG-HYAv3ONIsi">
+    <mxGraphModel dx="1382" dy="873" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="RcXcsHHcrXb0Sy49InP5-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;" edge="1" parent="1" source="RcXcsHHcrXb0Sy49InP5-1" target="RcXcsHHcrXb0Sy49InP5-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="270" y="210" />
+              <mxPoint x="270" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RcXcsHHcrXb0Sy49InP5-1" value="Hitchi IR reader" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=monospace;labelBackgroundColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="80" y="180" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RcXcsHHcrXb0Sy49InP5-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;" edge="1" parent="1" source="RcXcsHHcrXb0Sy49InP5-2" target="RcXcsHHcrXb0Sy49InP5-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RcXcsHHcrXb0Sy49InP5-2" value="Hitchi IR reader" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=monospace;labelBackgroundColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="80" y="250" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RcXcsHHcrXb0Sy49InP5-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;" edge="1" parent="1" source="RcXcsHHcrXb0Sy49InP5-3" target="RcXcsHHcrXb0Sy49InP5-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="270" y="350" />
+              <mxPoint x="270" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RcXcsHHcrXb0Sy49InP5-15" value="SML /&lt;br style=&quot;font-size: 13px;&quot;&gt;serial over USB" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=monospace;fontSize=13;labelBackgroundColor=none;" vertex="1" connectable="0" parent="RcXcsHHcrXb0Sy49InP5-14">
+          <mxGeometry x="0.3769" y="-2" relative="1" as="geometry">
+            <mxPoint x="11" y="-22" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RcXcsHHcrXb0Sy49InP5-3" value="Hitchi IR reader" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=monospace;labelBackgroundColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="80" y="320" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RcXcsHHcrXb0Sy49InP5-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;" edge="1" parent="1" source="RcXcsHHcrXb0Sy49InP5-4" target="RcXcsHHcrXb0Sy49InP5-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RcXcsHHcrXb0Sy49InP5-17" value="MQTT" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=monospace;fontSize=13;labelBackgroundColor=none;" vertex="1" connectable="0" parent="RcXcsHHcrXb0Sy49InP5-16">
+          <mxGeometry x="-0.3153" y="1" relative="1" as="geometry">
+            <mxPoint x="-6" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RcXcsHHcrXb0Sy49InP5-4" value="Synology NAS" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=monospace;labelBackgroundColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="410" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RcXcsHHcrXb0Sy49InP5-25" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="660" y="208" width="220" height="335" as="geometry" />
+        </mxCell>
+        <mxCell id="RcXcsHHcrXb0Sy49InP5-5" value="Cloud VPS" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;sketch=1;curveFitting=1;jiggle=2;fontFamily=monospace;labelBackgroundColor=none;fillColor=none;" vertex="1" parent="RcXcsHHcrXb0Sy49InP5-25">
+          <mxGeometry width="220" height="335" as="geometry" />
+        </mxCell>
+        <mxCell id="RcXcsHHcrXb0Sy49InP5-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;" edge="1" parent="RcXcsHHcrXb0Sy49InP5-25" source="RcXcsHHcrXb0Sy49InP5-6" target="RcXcsHHcrXb0Sy49InP5-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RcXcsHHcrXb0Sy49InP5-6" value="Mosquitto" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=monospace;labelBackgroundColor=none;fillColor=none;" vertex="1" parent="RcXcsHHcrXb0Sy49InP5-25">
+          <mxGeometry x="60" y="42.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RcXcsHHcrXb0Sy49InP5-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;" edge="1" parent="RcXcsHHcrXb0Sy49InP5-25" source="RcXcsHHcrXb0Sy49InP5-7" target="RcXcsHHcrXb0Sy49InP5-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RcXcsHHcrXb0Sy49InP5-7" value="Node-RED" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=monospace;labelBackgroundColor=none;fillColor=none;" vertex="1" parent="RcXcsHHcrXb0Sy49InP5-25">
+          <mxGeometry x="60" y="112.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RcXcsHHcrXb0Sy49InP5-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;" edge="1" parent="RcXcsHHcrXb0Sy49InP5-25" source="RcXcsHHcrXb0Sy49InP5-8" target="RcXcsHHcrXb0Sy49InP5-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RcXcsHHcrXb0Sy49InP5-8" value="VictoriaMetrics" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=monospace;labelBackgroundColor=none;fillColor=none;" vertex="1" parent="RcXcsHHcrXb0Sy49InP5-25">
+          <mxGeometry x="60" y="182.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RcXcsHHcrXb0Sy49InP5-9" value="Grafana" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=monospace;labelBackgroundColor=none;fillColor=none;" vertex="1" parent="RcXcsHHcrXb0Sy49InP5-25">
+          <mxGeometry x="60" y="252.5" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
