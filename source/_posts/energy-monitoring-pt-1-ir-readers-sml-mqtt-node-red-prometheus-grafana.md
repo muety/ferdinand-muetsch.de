@@ -13,7 +13,7 @@ This is the first in a series of two blog posts on monitoring the energy (primar
 
 One of the things that I was most curious about though, was to get insights about my personal energy consumption - and possibly even _optimize_ it based on these. At latest when I got my own balcony power plant a few years ago, this whole project started to take off.
 
-Effectively, I had built two different setups for electricity monitoring - one for myself and another one for my parents' home. In this article, I'll cover the latter, while my own, personal setup (which is a little more sophisticated ;-)) will be covered in the next blog post.
+Effectively, I had built two different setups for electricity monitoring - one for myself and another one for my parents' home. In this article, I'll cover the latter, while my own, personal setup (which is a little more sophisticated ;-)) will be covered in the [next blog post](/energy-monitoring-pt-2-optimizing-my-consumption-with-data.html).
 
 # Goal
 My goal was to track power consumption and production as precisely as possible to eventually be able to gather (a) "real-time" insights about when there is overcapacity and (b) analyze historical data to potentially find interesting patterns, etc.
@@ -81,4 +81,4 @@ The third architecture I considered, inspired by [this post](https://crycode.de/
 Ultimately, I found my setup described in this article to be the best trade-off between (a) utilizing systems that I already had (Prometheus, Grafana, Mosquitto, the NAS, ...), (b) keeping the setup rather simple and (c) cost-effective.
 
 # Outlook
-Part 2 of this mini-series will cover the monitoring setup employed in my own apartment. It's a lot more comprehensive, technically challenging, but also even more insightful. Stay tuned!
+[Part 2](/energy-monitoring-pt-2-optimizing-my-consumption-with-data.html) of this mini-series will cover the monitoring setup employed in my own apartment. It's a lot more comprehensive, technically challenging, but also even more insightful. Stay tuned!
