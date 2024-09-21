@@ -37,7 +37,33 @@
         <% } %>
     <% } %>
     <!-- title -->
-    <title><%= page.title ? page.title : config.title %></title>
+    <%
+    function capWords(str) {
+          if (!str) return str
+          return str.split(' ').map(function(str) {
+              return str[0].toUpperCase() + str.substr(1).toLowerCase()
+          }).join(' ');
+      }
+      
+      var title = capWords(page.title || '');
+      if (is_archive()) {
+          title = 'Archive';
+          if (is_month()) {
+              title += ': ' + page.year + '/' + page.month;
+          } else if (is_year()) {
+              title += ': ' + page.year;
+          }
+      } else if (is_category()) {
+          title = 'Category' + ': ' + page.category;
+      } else if (is_tag()) {
+          title = 'Topic' + ': ' + page.tag;
+      } else if (is_post()) {
+          title = page.title;
+      } else if (is_home()) {
+          title = '';
+      }
+    %>
+    <title><% if (title) { %><%= title %>  | <% } %><%= config.title %></title>
     <!-- styles -->
     <%- css('css/style') %>
     <!-- rss -->
