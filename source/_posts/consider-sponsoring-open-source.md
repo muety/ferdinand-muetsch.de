@@ -1,7 +1,7 @@
 ---
 title: Consider Sponsoring Open Source
 date: 2020-12-12 19:36:00
-tags:
+tags: [software-engineering, opensource]
 ---
 
 ![Title Image](https://apps.muetsch.io/images/o:auto?image=https://muetsch.io/images/foss_sponsoring.png)

@@ -1,7 +1,7 @@
 ---
 title: Serving raster data from PostGIS as WMS using Python and FastAPI or Flask
 date: 2021-10-21 17:13:53
-tags:
+tags: [gis]
 ---
 
 ![](https://apps.muetsch.io/images/o:auto/rs,s:640?image=https://muetsch.io/images/raster_data_2.jpg)

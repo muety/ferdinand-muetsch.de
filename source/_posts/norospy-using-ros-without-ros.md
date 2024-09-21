@@ -1,7 +1,7 @@
 ---
 title: norospy - Using ROS without ROS
 date: 2024-07-02 22:15:23
-tags:
+tags: self-driving
 ---
 
 Wait, what? Okay, one thing at a time. First of all, what is ROS even?

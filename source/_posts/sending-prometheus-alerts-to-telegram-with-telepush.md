@@ -1,7 +1,7 @@
 ---
 title: Sending Prometheus Alerts to Telegram with Telepush
 date: 2022-03-11 20:13:37
-tags:
+tags: [sysadmin, linux]
 ---
 
 <img src="images/prometheus_telepush.webp" width="256px">

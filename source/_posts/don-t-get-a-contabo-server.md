@@ -1,7 +1,7 @@
 ---
 title: Don't get a Contabo server
 date: 2024-04-25 09:50:19
-tags:
+tags: [sysadmin, linux]
 ---
 
 I'm usually not a person to rant on companies. But in this case, my experience with [Contabo](https://contabo.com) was so bad I felt like wanting to sort of warn people from taking a bad decision and present better alternatives instead.

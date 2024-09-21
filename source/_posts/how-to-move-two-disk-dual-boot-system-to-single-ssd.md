@@ -1,7 +1,7 @@
 ---
 title: How to move two-disk dual-boot system to single SSD
 date: 2023-03-01 20:09:22
-tags:
+tags: [sysadmin, linux]
 ---
 
 ![Cover Image (a hard drive)](images/hard_drive1.webp)

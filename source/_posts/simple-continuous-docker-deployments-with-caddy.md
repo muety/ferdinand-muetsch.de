@@ -1,7 +1,7 @@
 ---
 title: Simple continuous Docker deployments with Caddy
 date: 2021-11-28 12:52:11
-tags:
+tags: [sysadmin, linux]
 ---
 
 # CI and CD

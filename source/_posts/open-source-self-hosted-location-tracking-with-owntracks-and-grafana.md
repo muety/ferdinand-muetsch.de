@@ -1,7 +1,7 @@
 ---
 title: 'Open-source, self-hosted location tracking with OwnTracks and Grafana'
 date: 2021-06-25 08:49:45
-tags:
+tags: [selfhosted]
 ---
 
 # Introduction

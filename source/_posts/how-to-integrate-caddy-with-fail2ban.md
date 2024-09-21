@@ -1,7 +1,7 @@
 ---
 title: How to integrate Caddy with fail2ban
 date: 2023-05-14 20:58:57
-tags:
+tags: [sysadmin, linux]
 ---
 
 [Fail2ban](https://github.com/fail2ban/fail2ban) is an awesome security tool for servers. It allows to define rules (such as maximum number of failed SSH login attempts per time period) to temporarily IP-ban attackers or at least clients with suspicious behavior. I use it to lock out anyone who is repeatedly failing to establish an SSH session. In addition, I recently decided I also wanted to use it on a webserver level to block any potential attacker, e.g. anyone who is received a lot of `401` HTTP responses within short time. 

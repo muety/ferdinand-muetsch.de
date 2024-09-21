@@ -1,7 +1,7 @@
 ---
 title: How to convert OpenDRIVE to Lanelet2
 date: 2024-04-19 23:44:12
-tags:
+tags: [self-driving, gis]
 ---
 
 [OpenDRIVE](https://www.asam.net/standards/detail/opendrive/) and [Lanelet2](https://github.com/fzi-forschungszentrum-informatik/Lanelet2) are both representation formats for maps, particularly for road networks and commonly used in autonomous driving. Despite being designed for pretty much the same purpose, both formats differ quite heavily from a conceptual perspective, especially in how they model road networks internally. However, one can be converted to the other.

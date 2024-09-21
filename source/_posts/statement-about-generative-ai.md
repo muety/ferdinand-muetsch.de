@@ -1,7 +1,7 @@
 ---
 title: Statement about generative AI
 date: 2024-06-13 08:46:14
-tags:
+tags: [ai, machine-learning]
 ---
 
 Inspired by [this blog](https://www.leftfold.tech/pages/noai/), I want to make a statement about the use of generative AI on my sites and in my projects. All content you'll find here is **written by human** (that is, primarily by myself).

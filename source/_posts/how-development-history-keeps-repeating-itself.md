@@ -1,7 +1,7 @@
 ---
 title: How development history keeps repeating itself
 date: 2022-11-04 11:18:08
-tags:
+tags: [software-engineering]
 ---
 
 ![Tools in a workshop](images/dev_history1.webp)

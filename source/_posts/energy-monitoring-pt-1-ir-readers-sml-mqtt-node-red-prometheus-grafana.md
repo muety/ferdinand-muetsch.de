@@ -3,7 +3,7 @@ title: >-
   Smart Home Energy Monitoring Pt. 1 - IR readers, SML, MQTT, Node-RED, Prometheus +
   Grafana
 date: 2024-09-21 07:21:30
-tags:
+tags: [energy, smarthome]
 ---
 
 ![Grafana dashboard for energy monitoring](images/energy_monitoring_grafana1.png)

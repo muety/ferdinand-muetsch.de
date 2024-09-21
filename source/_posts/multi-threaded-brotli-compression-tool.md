@@ -1,7 +1,7 @@
 ---
 title: Multi-threaded Brotli compression tool
 date: 2024-07-13 10:52:52
-tags:
+tags: [devtools, algorithms]
 ---
 
 ## Brotli compression is slow

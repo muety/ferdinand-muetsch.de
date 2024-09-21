@@ -1,7 +1,7 @@
 ---
 title: Aggregating and Visualizing DMARC Reports
 date: 2021-05-07 21:23:08
-tags:
+tags: [sysadmin, linux]
 ---
 
 ![](https://apps.muetsch.io/images/o:auto/rs,s:640?image=https://muetsch.io/images/dmarc-cover.jpg)
