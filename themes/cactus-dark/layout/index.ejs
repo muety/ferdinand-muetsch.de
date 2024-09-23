@@ -46,12 +46,25 @@
   <ul class="project-list">
     <% for(var obj in site.data.projects){ %>
       <li class="project-item">
-        <a href="<%= site.data.projects[obj].url %>"><%= site.data.projects[obj].name %></a>: <%= site.data.projects[obj].desc %>
+        <a href="<%= site.data.projects[obj].url %>" target="_blank"><%= site.data.projects[obj].name %></a>: <%= site.data.projects[obj].desc %>
       </li>
     <% } %>
   </ul>
 </section>
 <% } %>
+
+<% if (site.data.publications) { %>
+  <section id="publications">
+    <span class="h1">Publications</span>
+    <ul class="publication-list">
+      <% for(var obj in site.data.publications){ %>
+        <li class="publication-item">
+          [<%= site.data.publications[obj].year %>] <%= site.data.publications[obj].title %> <a href="<%= site.data.publications[obj].url %>" target="_blank">(Online)</a><br><br>
+        </li>
+      <% } %>
+    </ul>
+  </section>
+  <% } %>
 
 <% if (site.data.badges) { %>
 <section id="badges">
