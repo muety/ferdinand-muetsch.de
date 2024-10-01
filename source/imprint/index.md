@@ -10,8 +10,8 @@ Information in accordance with section 5 German TMG
 
 ```
 Ferdinand Mütsch
-Am Sandfeld 2
-76149 Karlsruhe
+Wachhausstraße 14b
+76227 Karlsruhe
 Germany
 ```
 
