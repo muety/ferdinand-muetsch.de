@@ -1,5 +1,5 @@
 ---
-title: Smart Home Energy Monitoring Pt. 2 - Optimizing my consumption with data
+title: Smart Home Energy Monitoring Pt. 2 - Optimizing my electricity consumption with data
 date: 2024-09-21 09:48:58
 tags: [energy, smarthome]
 ---
