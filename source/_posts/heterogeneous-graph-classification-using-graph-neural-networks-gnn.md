@@ -262,7 +262,7 @@ These are the results I obtained:
 | **w/o temporal edges** | 24.6 % |
 | **w/o edge attributes** | 25.1 % |
 | **w/o map** (`road_segment` nodes) | 38.5 % |
-| **w/o attributes** (node + edge) | X % |
+| **w/o attributes** (node + edge) | 10.7 % |
 
 Unsurprisingly, when masking all feature information, model performance is very poor, yet still better than random guessing, since the model can still exploit connectivity information. Both temporal edges as well as edge attributes in general seem to add additional information and help the model learn better, which gives me confidence in the expressiveness of the data model. Positional encoding seems to guide the model in making sense of the sequential ordering of the scenario and appears to be another crucial component. The fact that accuracy is much lower, yet decent when ignoring map information gives indication that the model does fairly well in extracting insights from the agent dynamics only. 
 
