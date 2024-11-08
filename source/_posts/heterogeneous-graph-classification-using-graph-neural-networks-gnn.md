@@ -235,7 +235,7 @@ class DeeptestSimpleGNN(torch.nn.Module):
 # Experiments
 For my experiments, 10,122 scenarios from nuPlans `train_boston` data split were extracted in order to classify them. They were split into train, test and validation with a ratio of 70 : 15 : 15. In addition, I extracted individual scenes (that is, "snapshots" of scenarios, i.e. scenarios with only one timestep) to perform classification on as well. However, I'll exclude these in the following and only focus on full scenarios.
 
-Training the model proposed above, including all tweaks such as scaling, positional encoding and edge attributes, for 150 episodes results in a classification **accuracy of 51.6 %**. While this is certainly not a spectacular result, I'd still call it a success, considering that apriori probability is ~ 2 % and that we didn't do any sort of hyperparameter tuning so far. The training process is depicted in fig 7.
+Training the model proposed above, including all tweaks such as scaling, positional encoding and edge attributes, for 150 episodes results in a classification **accuracy of 56.1 %**. While this is certainly not a spectacular result, I'd still call it a success, considering that apriori probability is ~ 2 % and that we didn't do any sort of hyperparameter tuning so far. The training process is depicted in fig 7.
 
 ![Training Loss Chart](images/gnn_classification_training.svg)
 
@@ -257,7 +257,7 @@ These are the results I obtained:
 
 | **Test** | **Validation Accuracy** |
 | --- | --- |
-| **Baseline** (all-in) | 44.1 % |
+| **Baseline** (all-in) | 44.1 % (56.1 % @ T=150) |
 | **w/o positional encoding** | 33.5 % |
 | **w/o temporal edges** | 24.6 % |
 | **w/o edge attributes** | 25.1 % |
