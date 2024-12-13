@@ -20,19 +20,9 @@
         "desc": "A simple Telegram Bot to translate POST requests with JSON payload into Telegram push messages. Written in Go."
     },
     {
-        "name": "🐙 KITSquid",
-        "url": "https://kitsquid.de",
-        "desc": "KITSquid is an independent, alternative course catalog for KIT students, including course recommendations and other community features. Open-source and written in Go."
-    },
-    {
         "name": "⚓️ Anchr.io",
         "url": "https://github.com/muety/anchr",
         "desc": "A toolbox service for maintaining bookmark collections, shortening links and uploading and sharing images encryptedly."
-    },
-    {
-        "name": "⚓️ Anchr for Android",
-        "url": "https://github.com/muety/anchr-android",
-        "desc": "An Android app, build with Dart and Flutter, to manage links and bookmarks using Anchr.io on your mobile device."
     },
     {
         "name": "✏️ MiniNote",
@@ -40,13 +30,13 @@
         "desc": "A simple, persistent, self-hosted Markdown note-taking app built with VueJS."
     },
     {
-        "name": "🤓 QuizNerd for Android",
-        "url": "https://play.google.com/store/apps/details?id=com.github.muety.quiznerd",
-        "desc": "A multi-player trivia Android game made for developers and IT enthusiasts."
+        "name": "🚙 tafviz",
+        "url": "https://github.com/muety/tafviz",
+        "desc": "Simple, browser-based 2D BEV visualization of traffic scenarios in TAF-BW and INTERACTION dataset format in 350 lines of JavaScript"
     },
     {
-        "name": "💰 Telegram ExpenseBot",
-        "url": "https://muetsch.io/telegram-expensebot-doodlerbot.html",
-        "desc": "A Telegram bot to manage your daily expenses and keep track of your financial situation."
+        "name": "🌐 pyquadkey2",
+        "url": "https://github.com/muety/pyquadkey2",
+        "desc": "Cython implementation of geographical tiling using QuadKeys"
     }
 ]
