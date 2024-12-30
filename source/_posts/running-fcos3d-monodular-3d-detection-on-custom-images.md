@@ -1,5 +1,5 @@
 ---
-title: Running FCOS3D Monodular 3D Detection on Custom Images
+title: Running FCOS3D Monodular 3D Detection on custom Images
 date: 2024-12-16 14:54:17
 tags:
 ---
@@ -15,11 +15,11 @@ Please note that this is the way that **I** managed to get the model running. Pe
 ![](images/fcos3d.webp)
 
 # Prerequisites
-You'll need the [**intrinsic calibration**](https://docs.opencv.org/4.x/dc/dbb/tutorial_py_calibration.html) of your camera as 3x3 matrix. You may use OpenCV to estimate it.
+You'll need the [**intrinsic calibration**](https://docs.opencv.org/4.x/dc/dbb/tutorial_py_calibration.html) of your camera as a 3x3 matrix. You may use OpenCV to estimate it.
 
 # Setup
 
-FCOS3D is implemented as part of [MMDetection3D](https://mmdetection3d.readthedocs.io) framework, which, btw. supports a whole lot of other detection models in addition. The framework's code base is quite a mess and probably not particularly what you what consider well-structured and self-documenting code. Nevertheless, I luckily managed to dig my way through it. So here's what I did, roughly following MMDetection's [Getting Started](https://mmdetection3d.readthedocs.io/en/latest/get_started.html) and their [docs](https://mmdetection3d.readthedocs.io/en/latest/user_guides/inference.html#monocular-3d-demo) on inference.
+FCOS3D is implemented in the [MMDetection3D](https://mmdetection3d.readthedocs.io) framework, which, btw. supports a whole lot of other detection models in addition. The framework's code base is quite a mess and probably not particularly what you what consider well-structured and self-documenting code. Nevertheless, I luckily managed to dig my way through it. So here's what I did, roughly following MMDetection's [Getting Started](https://mmdetection3d.readthedocs.io/en/latest/get_started.html) and their [docs](https://mmdetection3d.readthedocs.io/en/latest/user_guides/inference.html#monocular-3d-demo) on inference.
 
 First of all, I had to fall back to older versions of Python, PyTorch and CUDA to get things working. 
 

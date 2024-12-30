@@ -29,7 +29,7 @@ As someone who loves coding, I have an almost endless list of small and bigger p
 In the following, I have put together a (non-comprehensive) list of technologies that I am experienced with (some more and some less), each with a rating between 1 and 5, defined as follows:
 
 * **1** = Basic experience. Have worked with it less than 5 years ago for more than ~ 1 week. Remember fundamentals, but couldn't start a project without substantial research for getting up to speed again.
-* **2** = Substatiated experience. Have realized a (small) project with it less than 5 years ago. Can read and understand code and am confident to realize simple features using it.
+* **2** = Substantiated experience. Have realized a (small) project with it less than 5 years ago. Can read and understand code and am confident to realize simple features using it.
 * **3** = Profound experience. Work with it almost on a day to day basis. Could realize a project from scratch with confidence. Can well explain even non-trivial aspects.
 * **4** = Expert-like experience. Have worked with it intesively for more than 5 years on a continuous basis. Know what's "under the hood" for the most parts.
 * **5** = Could have written a book on it (or did so).
