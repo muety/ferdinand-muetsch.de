@@ -1,5 +1,5 @@
 ---
-title: Running FCOS3D Monodular 3D Detection on custom Images
+title: Running FCOS3D Monocular 3D Detection on custom Images
 date: 2024-12-16 14:54:17
 tags:
 ---
