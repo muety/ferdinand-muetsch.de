@@ -11,7 +11,8 @@ customize:
         enabled: true
         width: 50
         height: 50
-        gravatar: true
+        gravatar: false
+        url: images/logo.svg
     favicon: 
       desktop:
         url: images/favicon.png
